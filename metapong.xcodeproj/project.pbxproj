@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D728703928B97AE7000555A9 /* ScoreBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D728703728B97AE7000555A9 /* ScoreBoard.cpp */; };
+		D728703D28B98F4D000555A9 /* libSDL2_ttf-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D728703C28B98F4D000555A9 /* libSDL2_ttf-2.0.0.dylib */; };
+		D728704028B99410000555A9 /* libSDL2_image-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D728703F28B99410000555A9 /* libSDL2_image-2.0.0.dylib */; };
+		D7698FF928B86BAA00BDD5CC /* GameStats.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7698FF728B86BAA00BDD5CC /* GameStats.cpp */; };
+		D79B66B428AFB81C0005EAFC /* Ball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D79B66B228AFB81B0005EAFC /* Ball.cpp */; };
+		D79B66B828AFB8F90005EAFC /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D79B66B628AFB8F90005EAFC /* Player.cpp */; };
+		D79B66C328B069E10005EAFC /* Opponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D79B66C228B069E10005EAFC /* Opponent.cpp */; };
+		D7A6C2FE28AF27E100C8764F /* libSDL2-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A6C2FD28AF27E100C8764F /* libSDL2-2.0.0.dylib */; };
+		D7A6C30628AF2AC400C8764F /* RenderWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7A6C30428AF2AC400C8764F /* RenderWindow.cpp */; };
+		D7A6C30B28AF3CDA00C8764F /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7A6C30928AF3CDA00C8764F /* Entity.cpp */; };
+		D7B2F96D28B6102B00EEB76A /* GameManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7B2F96B28B6102B00EEB76A /* GameManager.cpp */; };
+		D7B2FCFB28AEE48100DCFEDE /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7B2FCFA28AEE48100DCFEDE /* Main.cpp */; };
+		D7B56C1328C15A4E001A48A6 /* libSDL2_image-2.0.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = D728703F28B99410000555A9 /* libSDL2_image-2.0.0.dylib */; };
+		D7B56C1528C15A4F001A48A6 /* libSDL2_ttf-2.0.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = D728703C28B98F4D000555A9 /* libSDL2_ttf-2.0.0.dylib */; };
+		D7B56C1628C15A50001A48A6 /* libSDL2-2.0.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = D7A6C2FD28AF27E100C8764F /* libSDL2-2.0.0.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D7B2FCF528AEE48100DCFEDE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D7B56C1428C15A4E001A48A6 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D7B56C1628C15A50001A48A6 /* libSDL2-2.0.0.dylib in Embed Libraries */,
+				D7B56C1328C15A4E001A48A6 /* libSDL2_image-2.0.0.dylib in Embed Libraries */,
+				D7B56C1528C15A4F001A48A6 /* libSDL2_ttf-2.0.0.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D728703728B97AE7000555A9 /* ScoreBoard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ScoreBoard.cpp; sourceTree = "<group>"; };
+		D728703828B97AE7000555A9 /* ScoreBoard.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ScoreBoard.hpp; sourceTree = "<group>"; };
+		D728703C28B98F4D000555A9 /* libSDL2_ttf-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2_ttf-2.0.0.dylib"; path = "../../../../usr/local/Cellar/sdl2_ttf/2.20.1/lib/libSDL2_ttf-2.0.0.dylib"; sourceTree = "<group>"; };
+		D728703F28B99410000555A9 /* libSDL2_image-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2_image-2.0.0.dylib"; path = "../../../../usr/local/Cellar/sdl2_image/2.6.2/lib/libSDL2_image-2.0.0.dylib"; sourceTree = "<group>"; };
+		D7698FF728B86BAA00BDD5CC /* GameStats.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameStats.cpp; sourceTree = "<group>"; };
+		D7698FF828B86BAA00BDD5CC /* GameStats.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameStats.hpp; sourceTree = "<group>"; };
+		D79B66AB28AF7D2B0005EAFC /* Idea.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Idea.md; sourceTree = "<group>"; };
+		D79B66AE28AF8E1A0005EAFC /* Math.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Math.hpp; sourceTree = "<group>"; };
+		D79B66B228AFB81B0005EAFC /* Ball.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ball.cpp; sourceTree = "<group>"; };
+		D79B66B328AFB81B0005EAFC /* Ball.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Ball.hpp; sourceTree = "<group>"; };
+		D79B66B628AFB8F90005EAFC /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		D79B66B728AFB8F90005EAFC /* Player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
+		D79B66BB28B04E340005EAFC /* Constants.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Constants.hpp; sourceTree = "<group>"; };
+		D79B66C228B069E10005EAFC /* Opponent.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = Opponent.cpp; sourceTree = "<group>"; };
+		D79B66C528B069F70005EAFC /* Opponent.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Opponent.hpp; sourceTree = "<group>"; };
+		D7A6C2FD28AF27E100C8764F /* libSDL2-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2-2.0.0.dylib"; path = "../../../../usr/local/Cellar/sdl2/2.0.22/lib/libSDL2-2.0.0.dylib"; sourceTree = "<group>"; };
+		D7A6C30428AF2AC400C8764F /* RenderWindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RenderWindow.cpp; sourceTree = "<group>"; };
+		D7A6C30528AF2AC400C8764F /* RenderWindow.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RenderWindow.hpp; sourceTree = "<group>"; };
+		D7A6C30928AF3CDA00C8764F /* Entity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Entity.cpp; sourceTree = "<group>"; };
+		D7A6C30A28AF3CDA00C8764F /* Entity.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Entity.hpp; sourceTree = "<group>"; };
+		D7B2F96B28B6102B00EEB76A /* GameManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameManager.cpp; sourceTree = "<group>"; };
+		D7B2F96C28B6102B00EEB76A /* GameManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameManager.hpp; sourceTree = "<group>"; };
+		D7B2FCF728AEE48100DCFEDE /* metapong */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = metapong; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7B2FCFA28AEE48100DCFEDE /* Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
+		D7C9426428C157E500F2B980 /* metapong.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = metapong.entitlements; sourceTree = "<group>"; };
+		D7C9426828C1594C00F2B980 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7B2FCF428AEE48100DCFEDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D728704028B99410000555A9 /* libSDL2_image-2.0.0.dylib in Frameworks */,
+				D728703D28B98F4D000555A9 /* libSDL2_ttf-2.0.0.dylib in Frameworks */,
+				D7A6C2FE28AF27E100C8764F /* libSDL2-2.0.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D728704228B9DF65000555A9 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				D7B2F96B28B6102B00EEB76A /* GameManager.cpp */,
+				D7B2F96C28B6102B00EEB76A /* GameManager.hpp */,
+				D7698FF728B86BAA00BDD5CC /* GameStats.cpp */,
+				D7698FF828B86BAA00BDD5CC /* GameStats.hpp */,
+				D728703728B97AE7000555A9 /* ScoreBoard.cpp */,
+				D728703828B97AE7000555A9 /* ScoreBoard.hpp */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		D7B2F96428B5F6DE00EEB76A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D79B66BB28B04E340005EAFC /* Constants.hpp */,
+				D79B66AE28AF8E1A0005EAFC /* Math.hpp */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D7B2F96628B5F70E00EEB76A /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				D7A6C30A28AF3CDA00C8764F /* Entity.hpp */,
+				D7A6C30928AF3CDA00C8764F /* Entity.cpp */,
+				D79B66B328AFB81B0005EAFC /* Ball.hpp */,
+				D79B66B228AFB81B0005EAFC /* Ball.cpp */,
+				D79B66B728AFB8F90005EAFC /* Player.hpp */,
+				D79B66B628AFB8F90005EAFC /* Player.cpp */,
+				D79B66C528B069F70005EAFC /* Opponent.hpp */,
+				D79B66C228B069E10005EAFC /* Opponent.cpp */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		D7B2F96828B5F72200EEB76A /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				D7A6C30528AF2AC400C8764F /* RenderWindow.hpp */,
+				D7A6C30428AF2AC400C8764F /* RenderWindow.cpp */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		D7B2FCEE28AEE48100DCFEDE = {
+			isa = PBXGroup;
+			children = (
+				D7C9426428C157E500F2B980 /* metapong.entitlements */,
+				D7C9426828C1594C00F2B980 /* Assets */,
+				D7B2FCF928AEE48100DCFEDE /* metapong */,
+				D79B66AB28AF7D2B0005EAFC /* Idea.md */,
+				D7B2FCF828AEE48100DCFEDE /* Products */,
+				D7B2FD0528AF18D000DCFEDE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7B2FCF828AEE48100DCFEDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7B2FCF728AEE48100DCFEDE /* metapong */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7B2FCF928AEE48100DCFEDE /* metapong */ = {
+			isa = PBXGroup;
+			children = (
+				D7B2FCFA28AEE48100DCFEDE /* Main.cpp */,
+				D728704228B9DF65000555A9 /* Game */,
+				D7B2F96828B5F72200EEB76A /* Graphics */,
+				D7B2F96628B5F70E00EEB76A /* Entities */,
+				D7B2F96428B5F6DE00EEB76A /* Utils */,
+			);
+			path = metapong;
+			sourceTree = "<group>";
+		};
+		D7B2FD0528AF18D000DCFEDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D728703F28B99410000555A9 /* libSDL2_image-2.0.0.dylib */,
+				D728703C28B98F4D000555A9 /* libSDL2_ttf-2.0.0.dylib */,
+				D7A6C2FD28AF27E100C8764F /* libSDL2-2.0.0.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7B2FCF628AEE48100DCFEDE /* metapong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7B2FCFE28AEE48100DCFEDE /* Build configuration list for PBXNativeTarget "metapong" */;
+			buildPhases = (
+				D7B2FCF328AEE48100DCFEDE /* Sources */,
+				D7B2FCF428AEE48100DCFEDE /* Frameworks */,
+				D7B2FCF528AEE48100DCFEDE /* CopyFiles */,
+				D7B56C1428C15A4E001A48A6 /* Embed Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = metapong;
+			productName = pong;
+			productReference = D7B2FCF728AEE48100DCFEDE /* metapong */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7B2FCEF28AEE48100DCFEDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					D7B2FCF628AEE48100DCFEDE = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = D7B2FCF228AEE48100DCFEDE /* Build configuration list for PBXProject "metapong" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7B2FCEE28AEE48100DCFEDE;
+			productRefGroup = D7B2FCF828AEE48100DCFEDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7B2FCF628AEE48100DCFEDE /* metapong */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7B2FCF328AEE48100DCFEDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B2F96D28B6102B00EEB76A /* GameManager.cpp in Sources */,
+				D79B66B428AFB81C0005EAFC /* Ball.cpp in Sources */,
+				D728703928B97AE7000555A9 /* ScoreBoard.cpp in Sources */,
+				D7B2FCFB28AEE48100DCFEDE /* Main.cpp in Sources */,
+				D7A6C30B28AF3CDA00C8764F /* Entity.cpp in Sources */,
+				D7A6C30628AF2AC400C8764F /* RenderWindow.cpp in Sources */,
+				D79B66C328B069E10005EAFC /* Opponent.cpp in Sources */,
+				D79B66B828AFB8F90005EAFC /* Player.cpp in Sources */,
+				D7698FF928B86BAA00BDD5CC /* GameStats.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D7B2FCFC28AEE48100DCFEDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-L/usr/local/lib",
+					"-lSDL2",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D7B2FCFD28AEE48100DCFEDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = (
+					"-I/usr/local/include/SDL2",
+					"-I/usr/X11R6/include",
+					"-D_THREAD_SAFE",
+				);
+				OTHER_LDFLAGS = (
+					"-L/usr/local/lib",
+					"-lSDL2",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D7B2FCFF28AEE48100DCFEDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = metapong.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJFSVXB4TG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/sdl2/2.0.14_1/lib,
+					/usr/local/Cellar/sdl2/2.0.22/lib,
+					/usr/local/Cellar/sdl2_image/2.6.1/lib,
+					/usr/local/Cellar/sdl_ttf/2.0.11_1/lib,
+					/usr/local/Cellar/sdl2_ttf/2.20.1/lib,
+					/usr/local/Cellar/sdl2_image/2.6.2/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7B2FD0028AEE48100DCFEDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = metapong.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJFSVXB4TG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/sdl2/2.0.14_1/lib,
+					/usr/local/Cellar/sdl2/2.0.22/lib,
+					/usr/local/Cellar/sdl2_image/2.6.1/lib,
+					/usr/local/Cellar/sdl_ttf/2.0.11_1/lib,
+					/usr/local/Cellar/sdl2_ttf/2.20.1/lib,
+					/usr/local/Cellar/sdl2_image/2.6.2/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7B2FCF228AEE48100DCFEDE /* Build configuration list for PBXProject "metapong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B2FCFC28AEE48100DCFEDE /* Debug */,
+				D7B2FCFD28AEE48100DCFEDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7B2FCFE28AEE48100DCFEDE /* Build configuration list for PBXNativeTarget "metapong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B2FCFF28AEE48100DCFEDE /* Debug */,
+				D7B2FD0028AEE48100DCFEDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7B2FCEF28AEE48100DCFEDE /* Project object */;
+}
