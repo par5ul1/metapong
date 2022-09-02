@@ -1,7 +1,7 @@
 # MetaPong
 ### An SDL2/C++ remake of Pong, using actual OS windows as paddles and UI elements
 <p align="center">
-  <img src="Assets/screenshot.png" width="200px">
+  <img src="Assets/screenshot.png" width="600px">
 </p>
 
 ---
