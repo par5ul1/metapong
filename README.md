@@ -7,7 +7,7 @@
 ---
 # Gameplay
 <p align="center">
-  <img src="Assets/demo.gif" width="200px">
+  <img src="Assets/demo.gif" width="600px">
 </p>
 
 The player uses up and down arrow keys to control the position of the paddle. Just like the original Pong, the goal is to prevent the ball from going through your side and to bounce it into the opponent's side.
