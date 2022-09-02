@@ -6,15 +6,14 @@
 
 ---
 # Gameplay
-<p align="center">
-  <img src="Assets/demo.gif" width="600px">
-</p>
-
 The player uses up and down arrow keys to control the position of the paddle. Just like the original Pong, the goal is to prevent the ball from going through your side and to bounce it into the opponent's side.
 
 Each game is 10 rounds. Whoever has most points by the end of the rounds wins. The game will keep going but points will not be calculated again until the player restarts.
 
 You can press Q to quit or R to restart at any time.
+<p align="center">
+  <img src="Assets/demo.gif" width="600px">
+</p>
 
 # Purpose and Outcome
 I made this game over the course of three weeks using minimal tutorials as a personal challenge in order to put my C++ knowledge to the test. I was coming in from a C background and had only just gotten myself familiar with C++ by having taken an online course. This project was great because it taught me so many C++ concepts in practice such as namespaces, classes, inheritance, polymorphism, and using external libraries, amongst many other smaller ideas.
